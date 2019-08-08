@@ -20,6 +20,8 @@
 
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- switch css -->
+    <link rel="stylesheet" href="assets/css/lc_switch.css">
 </head>
 
 <body>
@@ -57,8 +59,13 @@
                             </div>
                         </div>
                         <div class=" col-9 d-flex justify-content-end">
-                            <div class="right_bar_top d-flex align-items-center">
-
+                            <div style="position:absolute;right:15px;" class="right_bar_top d-flex align-items-center">
+                                <!-- switch切换开关 -->
+                                <div style="top:-3px;" class="lcs_switch  lcs_checkbox_switch lcs_on">
+                                    <div class="lcs_cursor"></div>
+                                    <div class="lcs_label lcs_label_on">IOS</div>
+                                    <div class="lcs_label lcs_label_off">Android</div>
+                                </div>
                                 <!-- DropDown_Inbox -->
                                 <!-- <div class="dropdown dropdown-inbox">
                                     <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
@@ -141,26 +148,49 @@
 
             <div class="side_bar dark_blue side_bg_img scroll_auto">
                 <ul id="dc_accordion" class="sidebar-menu tree">
-                    <li class="menu_title">Main</li>
+                    <li class="menu_title">Menu</li>
                     <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-home"></i> <span>Dashboard</span> <span class="badge badge-info badge-pill float-right">2</span></a>
+                        <a href="#"> <i class="fa fa-home"></i> <span>运维监控</span>
+                            <!--<span class="badge badge-info badge-pill float-right">2</span>--></a>
                         <ul class="down_menu">
                             <li>
-                                <a href="index.html">Dashboard 1 </a>
+                                <a href="index.html">Crash 监控 </a>
+                            </li>
+                            <li>
+                                <a href="index.html">启动速度监控 </a>
+                            </li>
+                            <li>
+                                <a href="index.html">业务监控 </a>
+                            </li>
+                            <li>
+                                <a href="index.html">扫一扫监控 </a>
+                            </li>
+                            <li>
+                                <a href="index.html">人脸核身监控 </a>
+                            </li>
+                            <li>
+                                <a href="index.html">人脸识别监控(汇总) </a>
+                            </li>
+                            <li>
+                                <a href="index.html">用户设备统计 </a>
+                            </li>
+                            <li>
+                                <a href="index.html">App性能监控 </a>
                             </li>
                         </ul>
                     </li>
-                    <li class="menu_title">Components</li>
+                    <!-- <li class="menu_title">Components</li> -->
                     <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-newspaper-o"></i> <span>UI Elements </span> <span class="badge badge-pill badge-danger float-right">New</span> </a>
+                        <a href="#"> <i class="fa fa-newspaper-o"></i> <span>安全监控 </span>
+                            <!--<span class="badge badge-pill badge-danger float-right">New</span>--></a>
                         <ul class="down_menu">
                             <li>
-                                <a href="alert.html">Alerts</a>
+                                <a href="alert.html">iPhone安全监控</a>
                             </li>
                             <li>
-                                <a href="buttons.html">Buttons</a>
+                                <a href="buttons.html">Android安全监控</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="cards.html">Cards</a>
                             </li>
                             <li>
@@ -192,47 +222,51 @@
                             </li>
                             <li>
                                 <a href="toastr.html">Toastr Notification</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
                     <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-pie-chart"></i> <span>Portlets</span> <span class="icon-arrow-down styleicon"></span> </a>
+                        <a href="#"> <i class="fa fa-pie-chart"></i> <span>大屏监控</span> <span class="icon-arrow-down styleicon"></span> </a>
                         <ul class="down_menu">
                             <li>
-                                <a href="portlet-base.html">Portlets Base</a>
+                                <a href="portlet-base.html">大屏监控</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="portlet-advanced.html">Portlets Advanced</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
 
                     <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-table"></i> <span>Widgets </span> <span class="badge badge-pill badge-danger float-right">2</span> </a>
+                        <a href="#"> <i class="fa fa-table"></i> <span>网络监控(搭建ing) </span>
+                            <!--<span class="badge badge-pill badge-danger float-right">2</span>--></a>
                         <ul class="down_menu">
                             <li>
-                                <a href="widgets-base.html">Widgets Base</a>
+                                <a href="widgets-base.html">网络监控</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="widgets-chart.html">Widgets Chart</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
                     <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-calendar"></i> <span>Calendar </span> <span class="icon-arrow-down styleicon"></span> </a>
+                        <a href="#"> <i class="fa fa-calendar"></i> <span>其他功能 </span> <span class="icon-arrow-down styleicon"></span> </a>
                         <ul class="down_menu">
                             <li>
-                                <a href="calendar-basic.html">Basic Calendar</a>
+                                <a href="calendar-basic.html">App日志查询</a>
                             </li>
                             <li>
-                                <a href="calendar-external-events.html">External Events Calendar</a>
+                                <a href="calendar-external-events.html">权限管理</a>
                             </li>
                             <li>
-                                <a href="calendar-list.html">List Calendar</a>
+                                <a href="calendar-list.html">配置管理</a>
+                            </li>
+                            <li>
+                                <a href="calendar-list.html">周报管理</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="menu_sub">
+                    <!-- <li class="menu_sub">
                         <a href="#"> <i class="fa fa-wpforms"></i> <span>Forms</span> <span class="badge badge-pill badge-success float-right">8</span> </a>
                         <ul class="down_menu">
                             <li class="menu_sub">
@@ -319,7 +353,7 @@
                                 <a href="page_404.html">404</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
 
             </div>

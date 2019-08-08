@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///Users/admin/Desktop/appmoban/index.html",
+            "url": "file:///Users/admin/Desktop/workSpace/MobileWebMonitor/appmoban/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
