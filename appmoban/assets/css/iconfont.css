@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1565346887171');
+    /* IE9 */
+    src: url('iconfont.eot?t=1565346887171#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQYAAsAAAAACFwAAAPLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEHINiATYCJAMQCwoABCAFhG0HRBtQB8gekhRBEEEECSgAwBLi4fv92rn3vV3Mm2ZmE2JJp9PVQ4dKghCpEBvT8RL+/+VmfwilaahLaupI21VkoMHCC1k1OYl5Nqwf1W5Wd4D/c7i4JT6/ZbnMMbEX9QKMJlBAYy8KA70DOkG+YezKi9hMAL0ipUE7DW0KIEkZvQKIe8aoATIlJ61JDSREVjKxAnqBFjLnSe4Az/7vxz/MBwmQXAoYW+1e1uuh6iv4YyYx9X/7ZRY8jacFmwYK0AEqiOtS/Ski9HcQKOVvpAqAbiQJ+Ap+M/9j5v//kLkXPmn+ywMJIUC0wUjuB1hEvHJiDJtEgq/5JAL8ZwrcJKoKu3sH34BPLJ4c5+MyRH8UkkqDPTxCfdzdx1x2Bq4Wui4Iq5y9/U5nIlotqq4IeddEUVBMfdZ+0tm6Z0HzTad6p6hCYygkV9gN1b1rpq2e7991S2zq8RdeOTWg+4yg8BJF5c4zkI9nr54PI9afsyXGBkvWnV1wHhHTzvVP3RcvB6pHcqheCMn3HECEp4Oavx+haQcW7AN9zqCpexWiqHI61U+eKAVhwOIqAmrym0Rx3qt50uHqWSNi3Po9h3/WRrYv4aFrb3iLLJAbMhJWt8V1S0YmmV0O8b67D2+Q15xpJt3uj3dn1g0ZuJg3XuE+HTy8p6akCsl44McOI/a544O/FI2HlAYPR8cqx/wsvIEqsLHK7BSO5oalhuV21bulUrnf4DWX8vmF+fiOfb5zvFNWJfWrVKsaDFqV4j3H9wA4Ohrp6eM51eaEu7KRVTTD+n9cbt8uGWdSENXJiiP+DI/JkxHkDMdUyMbNwQ7QKMeIWX735QAxDVBmJVt/eieYXK/XjvAq+032XXXJh8PaiGyNCv0Yf47RmvGLGS3zqsoyFLXKbJuuOSqFf9gvgV4U0ADzqNdjCCdaewlkisEguYqAghSHqJg0aJHLgzZSJfRK1Ti9jx8OAVU3AHNmAUC8HQEJT+eB4O0uQop5BS4CfQYZ7yCAogq/BeUSgqFqOazhsZ7WjqMZHWszWCqeClJ7sHGURcMlWT5WhTkH46KzM7KyoUZsw9wYQxyjjTk8b6ANHGulG8B22GJhaTvHmrCOzxjkeXtJZqah7E0ZOtYKlFocTIOH6dG0xqExdFg2Brc4j8r9fA/MaBQLDa4mp0KugnEcmPpp2TJktUA08m2tcq7lGofRjHLweAY0Aw7LitYAtJjF9LNo9vJ2JpgOL8NgD69diUxUyNCWnzG/0PqEa6CX8YoaEkQgKXIB2Y19kLVhV41Nz7GM3tUxyJgYjQ0AAA==') format('woff2'), url('iconfont.woff?t=1565346887171') format('woff'), url('iconfont.ttf?t=1565346887171') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1565346887171#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 19px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont_clock {
+    font-family: "iconfont" !important;
+    font-size: 19px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iphone:before {
+    content: "\e68a";
+}
+
+.icon-android:before {
+    content: "\e618";
+}
+
+.icon-shijian:before {
+    content: "\eb2f";
+}

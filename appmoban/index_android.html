@@ -65,10 +65,10 @@
                             <div style="position:absolute;right:15px;" class="right_bar_top d-flex align-items-center">
                                 <!-- switch切换开关 -->
                                 <div class="lcs_wrap"><input type="checkbox" name="check-1" value="4" class="lcs_check" autocomplete="off">
-                                    <div class="lcs_switch  lcs_checkbox_switch lcs_on">
+                                    <div class="lcs_switch  lcs_checkbox_switch lcs_off">
                                         <div class="lcs_cursor"></div>
                                         <div class="lcs_label lcs_label_on" style="top:4px"><span class="iconfont icon-iphone"></span></div>
-                                        <div class="lcs_label lcs_label_off" style="top:6px"><span class="iconfont icon-android"></span></div>
+                                        <div class="lcs_label lcs_label_off" style="top:5px"><span class="iconfont icon-android"></span></div>
                                     </div>
                                 </div>
                                 <!-- <input type="checkbox" name="check-1" value="4" class="lcs_check" autocomplete="off" /> -->
@@ -375,7 +375,7 @@
                         <div class="row d-flex align-items-center">
                             <div style="height: 39px" class="col-12">
                                 <div class="page-breadcrumb">
-                                    <h1>iPhone</h1>
+                                    <h1>Android</h1>
                                 </div>
                             </div>
                             <div class="col-12  d-md-flex">
@@ -974,19 +974,6 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="copy_right">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>十分钟</a>
-                            <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>一小时</a>
-                            <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px; width:75px; height: 36px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>一天</a>
-                            <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px; width:75px; height: 36px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>十天</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="copy_right">
                         <p>
                             2019 (c) Dashboard Theme By >
                         </p>
@@ -1029,7 +1016,8 @@
             // triggered each time a field is checked
             $('body').delegate('.lcs_check', 'lcs-on', function() {
                 console.log('field is checked');
-
+                //切换页面
+                window.location.href = "index.html";
             });
 
 
@@ -1037,7 +1025,6 @@
             $('body').delegate('.lcs_check', 'lcs-off', function() {
                 console.log('field is unchecked');
                 //切换页面
-                window.location.href = "index_android.html";
             });
         });
     </script>
