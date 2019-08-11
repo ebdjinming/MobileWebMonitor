@@ -25,6 +25,12 @@
 
     <!-- switch 添加图标 -->
     <link rel="stylesheet" href="assets/css/iconfont.css">
+
+    <!-- version button css -->
+    <link rel="stylesheet" href="assets/css/versionButton/global.css">
+	<link rel="stylesheet" href="assets/css/versionButton/animate.css">
+	<link rel="stylesheet" href="assets/css/versionButton/toast.css">	
+	<link rel="stylesheet" href="assets/css/versionButton/centermenu.css">
 </head>
 
 <body>
@@ -38,7 +44,7 @@
             <div class="container_header">
                 <div class="logo d-flex align-items-center">
                     <a href="#"> <strong class="logo_icon"> <img src="assets/images/small-logo.png" alt=""> </strong> <span class="logo-default">
-							<img src="assets/images/logo2.png" alt=""> </span> </a>
+							<img src="assets/images/logo2.png" alt="" style="margin-top: 20px;"> </span> </a>
                     <div class="icon_menu full_menu">
                         <a href="#!" class="menu-toggler sidebar-toggler"></a>
                     </div>
@@ -62,7 +68,7 @@
                             </div>
                         </div>
                         <div class=" col-9 d-flex justify-content-end">
-                            <div style="position:absolute;right:15px;" class="right_bar_top d-flex align-items-center">
+                            <div style="position:absolute;right:15px;top:-3px;" class="right_bar_top d-flex align-items-center">
                                 <!-- switch切换开关 -->
                                 <div class="lcs_wrap"><input type="checkbox" name="check-1" value="4" class="lcs_check" autocomplete="off">
                                     <div class="lcs_switch  lcs_checkbox_switch lcs_on">
@@ -168,25 +174,25 @@
                                 <a href="index.html">Crash 监控 </a>
                             </li>
                             <li>
-                                <a href="morris-chart.html">启动速度监控 </a>
+                                <a href="startSpeed.html">启动速度监控 </a>
                             </li>
                             <li>
-                                <a href="index.html">业务监控 </a>
+                                <a href="service.html">业务监控 </a>
                             </li>
                             <li>
-                                <a href="index.html">扫一扫监控 </a>
+                                <a href="scan.html">扫一扫监控 </a>
                             </li>
                             <li>
-                                <a href="index.html">人脸核身监控 </a>
+                                <a href="verify.html">人脸核身监控 </a>
                             </li>
                             <li>
-                                <a href="index.html">人脸识别监控(汇总) </a>
+                                <a href="faceDetect.html">人脸识别监控(汇总) </a>
                             </li>
                             <li>
-                                <a href="index.html">用户设备统计 </a>
+                                <a href="devices.html">用户设备统计 </a>
                             </li>
                             <li>
-                                <a href="index.html">App性能监控 </a>
+                                <a href="performance.html">App性能监控 </a>
                             </li>
                         </ul>
                     </li>
@@ -196,10 +202,10 @@
                             <!--<span class="badge badge-pill badge-danger float-right">New</span>--></a>
                         <ul class="down_menu">
                             <li>
-                                <a href="alert.html">iPhone安全监控</a>
+                                <a href="security.html">iPhone安全监控</a>
                             </li>
                             <li>
-                                <a href="buttons.html">Android安全监控</a>
+                                <a href="security_android.html">Android安全监控</a>
                             </li>
                             <!-- <li>
                                 <a href="cards.html">Cards</a>
@@ -973,23 +979,40 @@
         <footer class="footer ptb-20">
             <div class="row">
                 <div class="col-12 text-center">
-                    <div class="copy_right">
+                    <!-- <div class="copy_right">
                         <div class="btn-group">
                             <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>十分钟</a>
                             <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>一小时</a>
                             <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px; width:75px; height: 36px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>一天</a>
                             <a href="#" class="btn btn-primary" style="padding:3px 6px 3px 6px; width:75px; height: 36px;"><span class="iconfont_clock icon-shijian" style="vertical-align:middle;"></span>十天</a>
                         </div>
-                    </div>
+                    </div> -->
+
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-outline-secondary active" id="min" onclick='updateData(this)'>
+                          <input type="radio" name="options" checked="">
+                          <i class="fa fa-clock-o"></i>
+                        十分钟</label>
+                        <label class="btn btn-outline-secondary" id="mins" onclick='updateData(this)'>
+                          <input type="radio" name="options" value="1hour" id="option4">
+                          <i class="fa fa-clock-o"></i>
+                        一小时</label>
+                        <label class="btn btn-outline-secondary" style="width:85px;" id="day" onclick='updateData(this)'>
+                            <input type="radio" name="options" value="1day" id="option5" checked="">
+                            <i class="fa fa-clock-o"></i>
+                        一天</label>
+                        <label class="btn btn-outline-secondary" style="width:85px;" id="days" onclick='updateData(this)'>
+                            <input type="radio" name="options" value="10days" id="option4">
+                            <i class="fa fa-clock-o"></i>
+                        十天</label>
+                      </div>
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="copy_right">
-                        <p>
-                            2019 (c) Dashboard Theme By >
-                        </p>
+                        <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" onclick="centermenu7()" style="padding: 2px 5px 2px 5px; margin-top: 5px;" >当前查看的版本：7.5.0</button>
                     </div>
 
                 </div>
@@ -1014,6 +1037,7 @@
     <script type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="assets/js/custom.js" type="text/javascript"></script>
 
+    <!-- switch切换开关 js代码 -->
     <script src="assets/js/switch/jquery.js"></script>
     <script src="assets/js/switch/lc_switch.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -1036,10 +1060,104 @@
             // triggered each time a is unchecked
             $('body').delegate('.lcs_check', 'lcs-off', function() {
                 console.log('field is unchecked');
-                //切换页面
+                //切换至android数据页面
                 window.location.href = "index_android.html";
             });
         });
+    </script>
+
+    <!-- 按钮切换版本 js代码 -->
+    <script src="assets/js/versionButton/toast.js"></script>
+    <script src="assets/js/versionButton/centermenu.js"></script>
+    <script>
+	function centermenu0(){
+		$('body').centermenu({
+			duration:0,
+		});
+	}
+
+	function centermenu1(){
+		$('body').centermenu();
+	}
+
+	function centermenu2(){
+		$('body').centermenu({
+			hasLineBorder:false,
+		});
+	}
+
+	function centermenu3(){
+		$('body').centermenu({
+			animateIn:'fadeInRight-hastrans',
+			animateOut:'fadeOutRight-hastrans',
+			hasLineBorder:false,
+			duration:800,
+		});
+	}
+
+	function centermenu4(){
+		$('body').centermenu({
+			animateIn:'bounceIn-hastrans',
+			animateOut:'bounceOut-hastrans',
+			hasLineBorder:false,
+		});
+	}
+
+	function centermenu5(){
+		$('body').centermenu({
+			animateIn:'bounceIn-hastrans',
+			animateOut:'bounceOut-hastrans',
+			hasLineBorder:false,
+			duration:800,
+		});
+	}
+
+	function centermenu6(){
+		$('body').centermenu({
+			animateIn:'bounceIn-hastrans',
+			animateOut:'bounceOut-hastrans',
+			hasLineBorder:false,
+			duration:300,
+			source:['复制','分享','搜索'],
+			liWidth:300,
+			liHeight:50,
+		});
+	}
+
+	function centermenu7(){
+		$('body').centermenu({
+			animateIn:'fadeInDownBig-hastrans',
+			animateOut:'fadeOutDownBig-hastrans',
+			hasLineBorder:false,
+			duration:600,
+			source:['7.0.0','7.1.0','7.2.0','7.3.0','7.4.0','7.5.0'],
+			liWidth:300,
+			liHeight:50,
+			click:function(ret){
+				//这里的showMessage是调用的另一个插件  toast
+                //showMessage(JSON.stringify(ret));
+                let str = '当前查看的版本：';
+                str = str + JSON.stringify(ret.text).replace("\"","").replace("\"","");
+                showMessage(str);
+                document.getElementById("versionButtonID").innerHTML = str; 
+			}
+		});
+	}
+    </script>
+
+    <script>
+        function updateData(ret){
+            //showMessage("查看当前10分钟内的数据");
+            var buttonId = $(ret).attr("id");
+            if(buttonId == "min")
+                showMessage("显示当前10分钟内的监控数据");
+            else if(buttonId == "mins")
+                showMessage("显示当前1小时内的监控数据");
+            else if(buttonId == "day")
+                showMessage("显示当前1天内的监控数据");
+            else if(buttonId == "days")
+                showMessage("显示当前10天内的监控数据");
+        }
     </script>
 
 </body>

@@ -105,7 +105,7 @@
                     on_label + off_label +
                     '</div>';
 
-                if ($(this).is(':input') && ($(this).attr('type') == 'checkbox' || $(this).attr('type') == 'radio')) {
+                if ($(this).is(':input') && ($(this).attr('type') == 'checkbox' /*|| $(this).attr('type') == 'radio'*/)) {
 
                     $(this).wrap('<div class="lcs_wrap"></div>');
                     $(this).parent().append(structure);
