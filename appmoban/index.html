@@ -8,9 +8,13 @@
     <title>Intellir - Bootstrap 4x Mobile HTML5 Template</title>
 
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-4.2.1.css">
-    <link rel="stylesheet" href="https://www.jq22.com/jquery/font-awesome.4.7.0.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="assets/css/google_font/fontsGoogleapis.css">
+    <!-- <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-4.2.1.css"> -->
+    <link rel="stylesheet" href="assets/css/google_font/bootstrap-4.2.1.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
     <link href="assets/css/ionicons.css" rel="stylesheet" type="text/css">
     <link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
@@ -28,9 +32,9 @@
 
     <!-- version button css -->
     <link rel="stylesheet" href="assets/css/versionButton/global.css">
-	<link rel="stylesheet" href="assets/css/versionButton/animate.css">
-	<link rel="stylesheet" href="assets/css/versionButton/toast.css">	
-	<link rel="stylesheet" href="assets/css/versionButton/centermenu.css">
+    <link rel="stylesheet" href="assets/css/versionButton/animate.css">
+    <link rel="stylesheet" href="assets/css/versionButton/toast.css">
+    <link rel="stylesheet" href="assets/css/versionButton/centermenu.css">
 </head>
 
 <body>
@@ -1005,14 +1009,14 @@
                             <input type="radio" name="options" value="10days" id="option4">
                             <i class="fa fa-clock-o"></i>
                         十天</label>
-                      </div>
+                    </div>
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="copy_right">
-                        <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" onclick="centermenu7()" style="padding: 2px 5px 2px 5px; margin-top: 5px;" >当前查看的版本：7.5.0</button>
+                        <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" onclick="centermenu7()" style="padding: 2px 5px 2px 5px; margin-top: 5px;">当前查看的版本：7.5.0</button>
                     </div>
 
                 </div>
@@ -1020,7 +1024,8 @@
         </footer>
         <!-- Footer_End -->
     </div>
-    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <!-- <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script> -->
+    <script type="text/javascript" src="assets/js/jquery-1.10.2.js"></script>
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
@@ -1031,7 +1036,8 @@
     <!--morris chart initialization-->
     <script src="assets/js/index/morris-chart/morris-init.js"></script>
     <!--chartjs Total Profit,New Orders,Yearly Revineue,New Users-->
-    <script src="https://cdn.bootcss.com/Chart.js/2.4.0/Chart.min.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/Chart.js/2.4.0/Chart.min.js"></script> -->
+    <script src="assets/js/index/morris-chart/Chart.js"></script>
     <script src="assets/js/chartjs-init.js"></script>
 
     <script type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
@@ -1070,92 +1076,92 @@
     <script src="assets/js/versionButton/toast.js"></script>
     <script src="assets/js/versionButton/centermenu.js"></script>
     <script>
-	function centermenu0(){
-		$('body').centermenu({
-			duration:0,
-		});
-	}
+        function centermenu0() {
+            $('body').centermenu({
+                duration: 0,
+            });
+        }
 
-	function centermenu1(){
-		$('body').centermenu();
-	}
+        function centermenu1() {
+            $('body').centermenu();
+        }
 
-	function centermenu2(){
-		$('body').centermenu({
-			hasLineBorder:false,
-		});
-	}
+        function centermenu2() {
+            $('body').centermenu({
+                hasLineBorder: false,
+            });
+        }
 
-	function centermenu3(){
-		$('body').centermenu({
-			animateIn:'fadeInRight-hastrans',
-			animateOut:'fadeOutRight-hastrans',
-			hasLineBorder:false,
-			duration:800,
-		});
-	}
+        function centermenu3() {
+            $('body').centermenu({
+                animateIn: 'fadeInRight-hastrans',
+                animateOut: 'fadeOutRight-hastrans',
+                hasLineBorder: false,
+                duration: 800,
+            });
+        }
 
-	function centermenu4(){
-		$('body').centermenu({
-			animateIn:'bounceIn-hastrans',
-			animateOut:'bounceOut-hastrans',
-			hasLineBorder:false,
-		});
-	}
+        function centermenu4() {
+            $('body').centermenu({
+                animateIn: 'bounceIn-hastrans',
+                animateOut: 'bounceOut-hastrans',
+                hasLineBorder: false,
+            });
+        }
 
-	function centermenu5(){
-		$('body').centermenu({
-			animateIn:'bounceIn-hastrans',
-			animateOut:'bounceOut-hastrans',
-			hasLineBorder:false,
-			duration:800,
-		});
-	}
+        function centermenu5() {
+            $('body').centermenu({
+                animateIn: 'bounceIn-hastrans',
+                animateOut: 'bounceOut-hastrans',
+                hasLineBorder: false,
+                duration: 800,
+            });
+        }
 
-	function centermenu6(){
-		$('body').centermenu({
-			animateIn:'bounceIn-hastrans',
-			animateOut:'bounceOut-hastrans',
-			hasLineBorder:false,
-			duration:300,
-			source:['复制','分享','搜索'],
-			liWidth:300,
-			liHeight:50,
-		});
-	}
+        function centermenu6() {
+            $('body').centermenu({
+                animateIn: 'bounceIn-hastrans',
+                animateOut: 'bounceOut-hastrans',
+                hasLineBorder: false,
+                duration: 300,
+                source: ['复制', '分享', '搜索'],
+                liWidth: 300,
+                liHeight: 50,
+            });
+        }
 
-	function centermenu7(){
-		$('body').centermenu({
-			animateIn:'fadeInDownBig-hastrans',
-			animateOut:'fadeOutDownBig-hastrans',
-			hasLineBorder:false,
-			duration:600,
-			source:['7.0.0','7.1.0','7.2.0','7.3.0','7.4.0','7.5.0'],
-			liWidth:300,
-			liHeight:50,
-			click:function(ret){
-				//这里的showMessage是调用的另一个插件  toast
-                //showMessage(JSON.stringify(ret));
-                let str = '当前查看的版本：';
-                str = str + JSON.stringify(ret.text).replace("\"","").replace("\"","");
-                showMessage(str);
-                document.getElementById("versionButtonID").innerHTML = str; 
-			}
-		});
-	}
+        function centermenu7() {
+            $('body').centermenu({
+                animateIn: 'fadeInDownBig-hastrans',
+                animateOut: 'fadeOutDownBig-hastrans',
+                hasLineBorder: false,
+                duration: 600,
+                source: ['7.0.0', '7.1.0', '7.2.0', '7.3.0', '7.4.0', '7.5.0'],
+                liWidth: 300,
+                liHeight: 50,
+                click: function(ret) {
+                    //这里的showMessage是调用的另一个插件  toast
+                    //showMessage(JSON.stringify(ret));
+                    let str = '当前查看的版本：';
+                    str = str + JSON.stringify(ret.text).replace("\"", "").replace("\"", "");
+                    showMessage(str);
+                    document.getElementById("versionButtonID").innerHTML = str;
+                }
+            });
+        }
     </script>
 
     <script>
-        function updateData(ret){
+        function updateData(ret) {
             //showMessage("查看当前10分钟内的数据");
             var buttonId = $(ret).attr("id");
-            if(buttonId == "min")
+            if (buttonId == "min")
                 showMessage("显示当前10分钟内的监控数据");
-            else if(buttonId == "mins")
+            else if (buttonId == "mins")
                 showMessage("显示当前1小时内的监控数据");
-            else if(buttonId == "day")
+            else if (buttonId == "day")
                 showMessage("显示当前1天内的监控数据");
-            else if(buttonId == "days")
+            else if (buttonId == "days")
                 showMessage("显示当前10天内的监控数据");
         }
     </script>
