@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6fe3813-1682-425e-9e12-b92ed48119cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/android-crash-chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/android-crash-chart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices.html" beforeDir="false" afterPath="$PROJECT_DIR$/devices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devices_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/devices_android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceDetect.html" beforeDir="false" afterPath="$PROJECT_DIR$/faceDetect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faceDetect_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/faceDetect_android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance.html" beforeDir="false" afterPath="$PROJECT_DIR$/performance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/performance_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/performance_android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan.html" beforeDir="false" afterPath="$PROJECT_DIR$/scan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/scan_android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/service_android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startSpeed.html" beforeDir="false" afterPath="$PROJECT_DIR$/startSpeed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startSpeed_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/startSpeed_android.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_android.html" beforeDir="false" afterPath="$PROJECT_DIR$/verify_android.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test</find>
+      <find>card-table</find>
+      <find>scanTime</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/js/morris-init.js" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/test-chart.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/crash-chart.html" />
+        <option value="$PROJECT_DIR$/index_android.html" />
+        <option value="$PROJECT_DIR$/ios-crash-chart.html" />
+        <option value="$PROJECT_DIR$/service.html" />
+        <option value="$PROJECT_DIR$/service_android.html" />
+        <option value="$PROJECT_DIR$/scan.html" />
+        <option value="$PROJECT_DIR$/scan_android.html" />
+        <option value="$PROJECT_DIR$/verify_android.html" />
+        <option value="$PROJECT_DIR$/faceDetect.html" />
+        <option value="$PROJECT_DIR$/faceDetect_android.html" />
+        <option value="$PROJECT_DIR$/devices.html" />
+        <option value="$PROJECT_DIR$/devices_android.html" />
+        <option value="$PROJECT_DIR$/performance.html" />
+        <option value="$PROJECT_DIR$/performance_android.html" />
+        <option value="$PROJECT_DIR$/startSpeed.html" />
+        <option value="$PROJECT_DIR$/android-crash-chart.html" />
+        <option value="$PROJECT_DIR$/startSpeed_android.html" />
+        <option value="$PROJECT_DIR$/verify.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="appmoban" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appmoban" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6fe3813-1682-425e-9e12-b92ed48119cc" name="Default Changelist" comment="" />
+      <created>1565611344211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565611344211</updated>
+      <workItem from="1565611347255" duration="1551000" />
+      <workItem from="1565655311408" duration="1549000" />
+      <workItem from="1565662748465" duration="4588000" />
+      <workItem from="1565667375813" duration="8012000" />
+      <workItem from="1565684788578" duration="13949000" />
+      <workItem from="1565742313949" duration="16088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45737000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2700081" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.20959148" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.261924" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.2109929" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/morris-chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="356" column="20" selection-start-line="356" selection-start-column="20" selection-end-line="419" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="2490" column="11" lean-forward="true" selection-start-line="2490" selection-start-column="11" selection-end-line="2490" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/morris-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1938">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="40" />
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="40" />
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="40" />
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="40" />
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="40" />
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="40" />
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="40" />
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="40" />
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="40" />
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/lc_switch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="184" column="32" lean-forward="true" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="562" column="43" selection-start-line="562" selection-start-column="43" selection-end-line="562" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="546" column="50" lean-forward="true" selection-start-line="546" selection-start-column="50" selection-end-line="546" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scan_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="534" column="40" selection-start-line="534" selection-start-column="40" selection-end-line="534" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="550" column="40" selection-start-line="550" selection-start-column="40" selection-end-line="550" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="510" column="42" selection-start-line="510" selection-start-column="42" selection-end-line="510" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceDetect_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="510" column="53" lean-forward="true" selection-start-line="510" selection-start-column="53" selection-end-line="510" selection-end-column="53" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faceDetect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="527" column="46" selection-start-line="527" selection-start-column="46" selection-end-line="527" selection-end-column="46" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#14;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devices_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="546" column="43" selection-start-line="546" selection-start-column="43" selection-end-line="546" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="551" column="43" selection-start-line="551" selection-start-column="43" selection-end-line="551" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="524" lean-forward="true" selection-start-line="524" selection-end-line="524" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/performance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="538" column="47" selection-start-line="538" selection-start-column="47" selection-end-line="538" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios-crash-chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="563" column="49" selection-start-line="563" selection-start-column="49" selection-end-line="563" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startSpeed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="702" column="23" lean-forward="true" selection-start-line="702" selection-start-column="23" selection-end-line="702" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-crash-chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="667" selection-start-line="667" selection-end-line="672" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/startSpeed_android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-645">
+          <caret line="681" column="31" selection-start-line="681" selection-start-column="31" selection-end-line="681" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="651" column="24" selection-start-line="651" selection-start-column="24" selection-end-line="651" selection-end-column="24" />
+          <folding>
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15918">
+          <caret line="1159" column="21" selection-start-line="1159" selection-start-column="21" selection-end-line="1159" selection-end-column="21" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

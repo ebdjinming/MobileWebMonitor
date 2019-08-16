@@ -4,13 +4,13 @@
 var lineChart = new Morris.Line({
     element: 'line-chart',
     data: [
-        {"elapsed": "07-19", "value": 8},
+        {"elapsed": "07-19", "value": 18},
         {"elapsed": "07-20", "value": 34},
         {"elapsed": "07-21", "value": 53},
         {"elapsed": "07-22", "value": 12},
         {"elapsed": "07-23", "value": 13},
         {"elapsed": "07-24", "value": 22},
-        {"elapsed": "07-25", "value": 5},
+        {"elapsed": "07-25", "value": 15},
         {"elapsed": "07-26", "value": 26},
         {"elapsed": "07-27", "value": 12},
         {"elapsed": "07-28", "value": 19}

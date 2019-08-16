@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intellir - Bootstrap 4x Mobile HTML5 Template</title>
+
+    <!-- google font -->
+    <link rel="stylesheet" href="assets/css/google_font/fontsGoogleapis.css">
+    <link rel="stylesheet" href="assets/css/google_font/bootstrap-4.2.1.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+
+    <link href="assets/css/ionicons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="assets/css/weather-icons.min.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- switch开关 css -->
+    <link rel="stylesheet" href="assets/css/lc_switch.css">
+
+    <!-- switch 添加图标 -->
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+
+    <!-- version button css -->
+    <link rel="stylesheet" href="assets/css/versionButton/global.css">
+    <link rel="stylesheet" href="assets/css/versionButton/animate.css">
+    <link rel="stylesheet" href="assets/css/versionButton/toast.css">
+    <link rel="stylesheet" href="assets/css/versionButton/centermenu.css">
+</head>
+
+<body>
+    <!-- <div id="loader_wrpper">
+    <div class="loader_style"></div>
+</div> -->
+
+    <div class="wrapper">
+        <!-- header -->
+        <header class="main-header">
+            <div class="container_header">
+                <div class="logo d-flex align-items-center">
+                    <a href="#"> <strong class="logo_icon"> <img src="assets/images/small-logo.png" alt=""> </strong> <span class="logo-default">
+							<img src="assets/images/logo2.png" alt="" style="margin-top: 20px;"> </span> </a>
+                    <div class="icon_menu full_menu">
+                        <a href="#!" class="menu-toggler sidebar-toggler"></a>
+                    </div>
+                </div>
+                <div class="right_detail">
+                    <div class="row d-flex align-items-center min-h pos-md-r">
+                        <div class="col-3 search_col ">
+                            <div class="top_function">
+                            </div>
+                        </div>
+                        <div class=" col-9 d-flex justify-content-end">
+                            <div style="position:absolute;right:15px;top:-3px;" class="right_bar_top d-flex align-items-center">
+                                <!-- switch切换开关 -->
+                                <div class="lcs_wrap"><input type="checkbox" name="check-1" value="4" class="lcs_check" autocomplete="off">
+                                    <div class="lcs_switch  lcs_checkbox_switch lcs_off">
+                                        <div class="lcs_cursor"></div>
+                                        <div class="lcs_label lcs_label_on" style="top:4px"><span class="iconfont icon-iphone"></span></div>
+                                        <div class="lcs_label lcs_label_off" style="top:5px"><span class="iconfont icon-android"></span></div>
+                                    </div>
+                                </div>
+                                <!-- Dropdown_User_End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- header_End -->
+        <!-- Content_right -->
+        <div class="container_full">
+
+            <div class="side_bar dark_blue side_bg_img scroll_auto">
+                <ul id="dc_accordion" class="sidebar-menu tree">
+                    <li class="menu_title">Menu</li>
+                    <li class="menu_sub">
+                        <a href="#"> <i class="fa fa-home"></i> <span>运维监控</span>
+                            <!--<span class="badge badge-info badge-pill float-right">2</span>--></a>
+                        <ul class="down_menu">
+                            <li>
+                                <a href="android-crash-chart.html">Crash 监控 </a>
+                            </li>
+                            <li>
+                                <a href="startSpeed_android.html">启动速度监控 </a>
+                            </li>
+                            <li>
+                                <a href="service_android.html">业务监控 </a>
+                            </li>
+                            <li>
+                                <a href="scan_android.html">扫一扫监控 </a>
+                            </li>
+                            <li>
+                                <a href="verify_android.html">人脸核身监控 </a>
+                            </li>
+                            <li>
+                                <a href="faceDetect_android.html">人脸识别监控(汇总) </a>
+                            </li>
+                            <li>
+                                <a href="devices_android.html">用户设备统计 </a>
+                            </li>
+                            <li>
+                                <a href="performance_android.html">App性能监控 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="menu_title">Components</li> -->
+                    <li class="menu_sub">
+                        <a href="#"> <i class="fa fa-newspaper-o"></i> <span>安全监控 </span>
+                            <!--<span class="badge badge-pill badge-danger float-right">New</span>--></a>
+                        <ul class="down_menu">
+                            <li>
+                                <a href="security.html">iPhone安全监控</a>
+                            </li>
+                            <li>
+                                <a href="security_android.html">Android安全监控</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_sub">
+                        <a href="#"> <i class="fa fa-pie-chart"></i> <span>大屏监控</span> <span class="icon-arrow-down styleicon"></span> </a>
+                        <ul class="down_menu">
+                            <li>
+                                <a href="portlet-base.html">大屏监控</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu_sub">
+                        <a href="#"> <i class="fa fa-table"></i> <span>网络监控(搭建ing) </span>
+                            <!--<span class="badge badge-pill badge-danger float-right">2</span>--></a>
+                        <ul class="down_menu">
+                            <li>
+                                <a href="widgets-base.html">网络监控</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_sub">
+                        <a href="#"> <i class="fa fa-calendar"></i> <span>其他功能 </span> <span class="icon-arrow-down styleicon"></span> </a>
+                        <ul class="down_menu">
+                            <li>
+                                <a href="calendar-basic.html">App日志查询</a>
+                            </li>
+                            <li>
+                                <a href="calendar-external-events.html">权限管理</a>
+                            </li>
+                            <li>
+                                <a href="calendar-list.html">配置管理</a>
+                            </li>
+                            <li>
+                                <a href="calendar-list.html">周报管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="content_wrapper">
+                <div class="container-fluid">
+                    <!-- breadcrumb -->
+                    <div class="page-heading">
+                        <div class="row d-flex align-items-center">
+                            <div style="height: 39px" class="col-12">
+                                <div class="page-breadcrumb">
+                                    <h1>Android</h1>
+                                </div>
+                            </div>
+                            <div class="col-12  d-md-flex">
+                                <div class="breadcrumb_nav">
+                                    <ol class="breadcrumb">
+                                        <li>
+                                            <i class="fa fa-home"></i>
+                                            <a class="parent-item" href="index.html">运行监控</a>
+                                            <i class="fa fa-angle-right"></i>
+                                        </li>
+                                        <li class="active">
+                                            Crash监控
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- breadcrumb_End -->
+
+                    <!-- Section -->
+                    <section class="chart_section">
+
+                        <div class="row">
+                            <div class=" col-12">
+                                <div class="card card-shadow mb-4">
+                                    <div class="card-header">
+                                        <div class="card-title">
+                                            Crash率
+                                        </div>
+                                    </div>
+                                    <div class="card-body" style="padding:5px">
+                                        <div id="crashRate-chart" class="height_wp"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-12">
+                                <div class="card card-shadow mb-4">
+                                    <div class="card-header">
+                                        <div class="card-title">
+                                            Crash量
+                                        </div>
+                                    </div>
+                                    <div class="card-body" style="padding:5px">
+                                        <div id="crashNum-chart" class="height_wp"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-12">
+                                <div class="card card-shadow mb-4">
+                                    <div class="card-header">
+                                        <div class="card-title" class="height_wp">
+                                            Crash Top20机型
+                                        </div>
+                                    </div>
+                                    <div class="card-body" style="padding:5px">
+                                        <div id="topMobile-chart" class="height_wp"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-12">
+                                <div class="card card-shadow mb-4">
+                                    <div class="card-header">
+                                        <div class="card-title">
+                                            Crash Top10系统
+                                        </div>
+                                    </div>
+                                    <div class="card-body" style="padding:5px">
+                                        <div id="topSystem-chart" class="height_wp"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class=" col-12">
+                                <div class="card card-shadow mb-4">
+                                    <div class="card-header">
+                                        <div class="card-title">
+                                            Crash Top10设备厂商
+                                        </div>
+                                    </div>
+                                    <div class="card-body" style="padding:5px">
+                                        <div id="topFirm-chart" class="height_wp"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!--graph widget end-->
+
+                    </section>
+                    <!-- Section_End -->
+
+                </div>
+            </div>
+        </div>
+        <!-- Content_right_End -->
+        <!-- Footer -->
+        <footer class="footer ptb-20">
+            <div class="row">
+                <div class="col-12 text-center">
+
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-outline-secondary active" id="min" onclick='updateData(this)'>
+                            <input type="radio" name="options" checked="">
+                            <i class="fa fa-clock-o"></i>
+                          十分钟</label>
+                        <label class="btn btn-outline-secondary" id="mins" onclick='updateData(this)'>
+                            <input type="radio" name="options" value="1hour" id="option4">
+                            <i class="fa fa-clock-o"></i>
+                          一小时</label>
+                        <label class="btn btn-outline-secondary" style="width:85px;" id="day" onclick='updateData(this)'>
+                              <input type="radio" name="options" value="1day" id="option5" checked="">
+                              <i class="fa fa-clock-o"></i>
+                          一天</label>
+                        <label class="btn btn-outline-secondary" style="width:85px;" id="days" onclick='updateData(this)'>
+                              <input type="radio" name="options" value="10days" id="option4">
+                              <i class="fa fa-clock-o"></i>
+                          十天</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="copy_right">
+                        <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" onclick="centermenu7()" style="padding: 2px 5px 2px 5px; margin-top: 5px;">当前查看的版本：7.5.0</button>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- Footer_End -->
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/custom.js" type="text/javascript"></script>
+
+    <script src="assets/js/switch/jquery.js"></script>
+    <script src="assets/js/switch/lc_switch.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $('input').lc_switch();
+
+            // triggered each time a field changes status
+            $('body').delegate('.lcs_check', 'lcs-statuschange', function() {
+                var status = ($(this).is(':checked')) ? 'checked' : 'unchecked';
+                console.log('field changed status: ' + status);
+            });
+
+            // triggered each time a field is checked
+            $('body').delegate('.lcs_check', 'lcs-on', function() {
+                console.log('field is checked');
+                //切换至iPhone数据页面
+                window.location.href = "ios-crash-chart.html";
+            });
+
+
+            // triggered each time a is unchecked
+            $('body').delegate('.lcs_check', 'lcs-off', function() {
+                console.log('field is unchecked');
+                //切换页面
+            });
+        });
+    </script>
+
+    <!-- 按钮切换版本 js代码 -->
+    <script src="assets/js/versionButton/toast.js"></script>
+    <script src="assets/js/versionButton/centermenu.js"></script>
+    <script>
+        function centermenu0() {
+            $('body').centermenu({
+                duration: 0,
+            });
+        }
+
+        function centermenu1() {
+            $('body').centermenu();
+        }
+
+        function centermenu2() {
+            $('body').centermenu({
+                hasLineBorder: false,
+            });
+        }
+
+        function centermenu3() {
+            $('body').centermenu({
+                animateIn: 'fadeInRight-hastrans',
+                animateOut: 'fadeOutRight-hastrans',
+                hasLineBorder: false,
+                duration: 800,
+            });
+        }
+
+        function centermenu4() {
+            $('body').centermenu({
+                animateIn: 'bounceIn-hastrans',
+                animateOut: 'bounceOut-hastrans',
+                hasLineBorder: false,
+            });
+        }
+
+        function centermenu5() {
+            $('body').centermenu({
+                animateIn: 'bounceIn-hastrans',
+                animateOut: 'bounceOut-hastrans',
+                hasLineBorder: false,
+                duration: 800,
+            });
+        }
+
+        function centermenu6() {
+            $('body').centermenu({
+                animateIn: 'bounceIn-hastrans',
+                animateOut: 'bounceOut-hastrans',
+                hasLineBorder: false,
+                duration: 300,
+                source: ['复制', '分享', '搜索'],
+                liWidth: 300,
+                liHeight: 50,
+            });
+        }
+
+        function centermenu7() {
+            $('body').centermenu({
+                animateIn: 'fadeInDownBig-hastrans',
+                animateOut: 'fadeOutDownBig-hastrans',
+                hasLineBorder: false,
+                duration: 600,
+                source: ['7.0.0', '7.1.0', '7.2.0', '7.3.0', '7.4.0', '7.5.0'],
+                liWidth: 300,
+                liHeight: 50,
+                click: function(ret) {
+                    //这里的showMessage是调用的另一个插件  toast
+                    //showMessage(JSON.stringify(ret));
+                    let str = '当前查看的版本：';
+                    str = str + JSON.stringify(ret.text).replace("\"", "").replace("\"", "");
+                    showMessage(str);
+                    document.getElementById("versionButtonID").innerHTML = str;
+                }
+            });
+        }
+    </script>
+
+    <script src="dist/echarts.js"></script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart_crashRate = echarts.init(document.getElementById('crashRate-chart'));
+        var myChart_crashNum = echarts.init(document.getElementById('crashNum-chart'));
+        var myChart_topMobile = echarts.init(document.getElementById('topMobile-chart'));
+        var myChart_topSystem = echarts.init(document.getElementById('topSystem-chart'));
+        var myChart_topFirm = echarts.init(document.getElementById('topFirm-chart'));
+        // 指定图表的配置项和数据
+        var option_crashRate = {
+            grid: {
+                left: '10%',
+                right: '13%'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['综合（不含网盾）', '主程序', '招乎', '网盾'],
+                x: "center",
+                y: "bottom",
+                textStyle: {
+                    fontSize: 9
+                }
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    dataView: {
+                        show: true,
+                        readOnly: false
+                    },
+                    magicType: {
+                        show: true,
+                        type: ['line', 'bar', 'stack', 'tiled']
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                name: '时间',
+                type: 'category',
+                boundaryGap: true,
+                data: ["08-06", "08-07", "08-08", "08-09", "08-10", "08-11", "08-12"]
+            }],
+            yAxis: [{
+                name: '万分比',
+                type: 'value'
+            }],
+            series: [{
+                name: '综合（不含网盾）',
+                type: 'line',
+                data: [4.64, 6.56, 6.67, 6.7, 6.71, 6.03, 6.83]
+            }, {
+                name: '主程序',
+                type: 'line',
+                data: [3.04, 2.94, 2.73, 2.72, 2.72, 2.62, 2.67]
+            }, {
+                name: '招乎',
+                type: 'line',
+                data: [1.59, 3.62, 3.94, 3.98, 3.98, 3.41, 4.16]
+            }, {
+                name: '网盾',
+                type: 'line',
+                data: [0.87, 0.59, 0.68, 0.69, 0.66, 0.7, 0.74]
+            }, ]
+        };
+        myChart_crashRate.setOption(option_crashRate);
+
+        var option_crashNum = {
+            grid: {
+                left: '13%',
+                right: '13%'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['综合（不含网盾）', '主程序', '招乎', '网盾'],
+                itemGap: 2,
+                x: "center",
+                y: "bottom",
+                textStyle: {
+                    fontSize: 9
+                }
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    dataView: {
+                        show: true,
+                        readOnly: false
+                    },
+                    magicType: {
+                        show: true,
+                        type: ['line', 'bar', 'stack', 'tiled']
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                name: '时间',
+                type: 'category',
+                boundaryGap: true,
+                data: ["08-06", "08-07", "08-08", "08-09", "08-10", "08-11", "08-12"]
+            }],
+            yAxis: [{
+                name: '次数',
+                type: 'value'
+            }],
+            series: [{
+                name: '综合（不含网盾）',
+                type: 'bar',
+                data: [64, 3406, 4803, 6003, 4735, 3734, 5748]
+            }, {
+                name: '主程序',
+                type: 'bar',
+                data: [42, 1526, 1965, 2437, 1923, 1620, 2246]
+            }, {
+                name: '招乎',
+                type: 'bar',
+                data: [22, 1880, 2838, 3566, 2812, 2114, 3503]
+            }, {
+                name: '网盾',
+                type: 'bar',
+                data: [12, 306, 488, 621, 465, 431, 623]
+            }, ]
+        };
+        myChart_crashNum.setOption(option_crashNum);
+
+        var option_topMobile = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    dataView: {
+                        show: true,
+                        readOnly: false
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            series: [{
+                name: ' ',
+                type: 'pie',
+                // labelLine : {
+                //     normal : {
+                //         length : 5,
+                //         length2 : 5
+                //     }
+                // },
+                radius: '50%',
+                center: ['50%', '60%'],
+                data: [{
+                    value: 1123,
+                    name: 'OPPO R9s'
+                }, {
+                    value: 792,
+                    name: 'OPPO R15'
+                }, {
+                    value: 773,
+                    name: 'OPPO R17'
+                }, {
+                    value: 770,
+                    name: 'OPPO R11'
+                }, {
+                    value: 746,
+                    name: 'Mi 8'
+                }, {
+                    value: 660,
+                    name: 'OPPO R11s'
+                }, {
+                    value: 484,
+                    name: 'OPPO A57'
+                }, {
+                    value: 480,
+                    name: 'Mi 6'
+                }, {
+                    value: 478,
+                    name: 'OPPO R9sk'
+                }, {
+                    value: 442,
+                    name: 'OPPO R9s Plus'
+                }, ]
+            }]
+        };
+        myChart_topMobile.setOption(option_topMobile);
+
+        var option_topSystem = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    dataView: {
+                        show: true,
+                        readOnly: false
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            series: [{
+                name: ' ',
+                type: 'pie',
+                radius: '50%',
+                center: ['50%', '60%'],
+                data: [{
+                    value: 9196,
+                    name: '9'
+                }, {
+                    value: 7075,
+                    name: '8.1.0'
+                }, {
+                    value: 3681,
+                    name: '6.0.1'
+                }, {
+                    value: 3066,
+                    name: '7.1.1'
+                }, {
+                    value: 1962,
+                    name: '8.0.0'
+                }, {
+                    value: 1445,
+                    name: '5.1'
+                }, {
+                    value: 1440,
+                    name: '7.1.2'
+                }, {
+                    value: 1342,
+                    name: '6.0'
+                }, {
+                    value: 1115,
+                    name: '7.0'
+                }, {
+                    value: 1005,
+                    name: '5.1.1'
+                }]
+            }]
+        };
+        myChart_topSystem.setOption(option_topSystem);
+
+        var option_topFirm = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    dataView: {
+                        show: true,
+                        readOnly: false
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            series: [{
+                name: ' ',
+                type: 'pie',
+                radius: '50%',
+                center: ['50%', '60%'],
+                data: [{
+                    value: 11693,
+                    name: 'OPPO'
+                }, {
+                    value: 7597,
+                    name: '华为'
+                }, {
+                    value: 6924,
+                    name: '小米'
+                }, {
+                    value: 2710,
+                    name: 'vivo'
+                }, {
+                    value: 870,
+                    name: '魅族'
+                }, {
+                    value: 620,
+                    name: '一加'
+                }, {
+                    value: 433,
+                    name: '锤子'
+                }, {
+                    value: 221,
+                    name: '三星'
+                }, {
+                    value: 126,
+                    name: '美图'
+                }, {
+                    value: 107,
+                    name: 'YUFLY'
+                }]
+            }]
+        };
+        myChart_topFirm.setOption(option_topFirm);
+
+        window.addEventListener("resize", function() {
+            myChart_crashRate.resize();
+            myChart_crashNum.resize();
+            myChart_topMobile.resize();
+            myChart_topSystem.resize();
+            myChart_topFirm.resize();
+        });
+    </script>
+
+    <script>
+        function updateData(ret) {
+            //showMessage("查看当前10分钟内的数据");
+            var buttonId = $(ret).attr("id");
+            if (buttonId == "min")
+                showMessage("显示当前10分钟内的监控数据");
+            else if (buttonId == "mins")
+                showMessage("显示当前1小时内的监控数据");
+            else if (buttonId == "day")
+                showMessage("显示当前1天内的监控数据");
+            else if (buttonId == "days")
+                showMessage("显示当前10天内的监控数据");
+        }
+    </script>
+</body>
+
+</html>
