@@ -164,12 +164,19 @@
             <div class="content_wrapper">
                 <div class="container-fluid">
                     <!-- breadcrumb -->
-                    <div class="page-heading">
-                        <div class="row d-flex align-items-center">
-                            <div style="height: 39px" class="col-12">
-                                <div class="page-breadcrumb">
+                    <div class="page-heading"  style="height: 105px;">
+                        <div class="row d-flex align-items-center" style="position: relative;top: -20px;">
+                            <div style="height: 31px;padding-left: 18px;" class="col-12">
+                                <div class="page-breadcrumb" style="width:100px;float:left;display: inline;">
                                     <h1>iPhone</h1>
                                 </div>
+                                <div class="copy_right" style="float: right; display: inline;">
+                                        <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" style="padding: 2px;position: relative;top: -2px;" onclick="centermenu7()">7.5.0</button>
+                                </div>
+                                <div style="float: right;display: inline;">
+                                    <h1>切换版本：</h1>
+                                </div>
+                                
                             </div>
                             <div class="col-12  d-md-flex">
                                 <div class="breadcrumb_nav">
@@ -184,6 +191,31 @@
                                         </li>
                                     </ol>
                                 </div>
+                            </div>
+                        </div>
+                    
+                        <!-- 在此添加切换查看时间的按钮 -->
+                    <div class="row" style="position: relative;top: -20px;">
+                            <div class="col-12 text-center" style="padding: 2px;">
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-outline-secondary active" id="min" onclick='updateData(this)'>
+                                      <input type="radio" name="options" checked="">
+                                      <i class="fa fa-clock-o"></i>
+                                    十分钟</label>
+                                    <label class="btn btn-outline-secondary" id="mins" onclick='updateData(this)'>
+                                      <input type="radio" name="options" value="1hour" id="option4">
+                                      <i class="fa fa-clock-o"></i>
+                                    一小时</label>
+                                    <label class="btn btn-outline-secondary" style="width:85px;" id="day" onclick='updateData(this)'>
+                                        <input type="radio" name="options" value="1day" id="option5" checked="">
+                                        <i class="fa fa-clock-o"></i>
+                                    一天</label>
+                                    <label class="btn btn-outline-secondary" style="width:85px;" id="days" onclick='updateData(this)'>
+                                        <input type="radio" name="options" value="10days" id="option4">
+                                        <i class="fa fa-clock-o"></i>
+                                    十天</label>
+                                </div>
+            
                             </div>
                         </div>
                     </div>
@@ -252,37 +284,16 @@
         <!-- Content_right_End -->
         <!-- Footer -->
         <footer class="footer ptb-20">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-outline-secondary active" id="min" onclick='updateData(this)'>
-                          <input type="radio" name="options" checked="">
-                          <i class="fa fa-clock-o"></i>
-                        十分钟</label>
-                        <label class="btn btn-outline-secondary" id="mins" onclick='updateData(this)'>
-                          <input type="radio" name="options" value="1hour" id="option4">
-                          <i class="fa fa-clock-o"></i>
-                        一小时</label>
-                        <label class="btn btn-outline-secondary" style="width:85px;" id="day" onclick='updateData(this)'>
-                            <input type="radio" name="options" value="1day" id="option5" checked="">
-                            <i class="fa fa-clock-o"></i>
-                        一天</label>
-                        <label class="btn btn-outline-secondary" style="width:85px;" id="days" onclick='updateData(this)'>
-                            <input type="radio" name="options" value="10days" id="option4">
-                            <i class="fa fa-clock-o"></i>
-                        十天</label>
+                <div class="row">
+                        <div class="col-12 text-center">
+                            <div class="copy_right">
+                                <p>
+                                    Copyright &copy 2019 个人网银基础室
+                                </p>
+                            </div>
+        
+                        </div>
                     </div>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="copy_right">
-                        <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" onclick="centermenu7()" style="padding: 2px 5px 2px 5px; margin-top: 5px;">当前查看的版本：7.5.0</button>
-                    </div>
-
-                </div>
-            </div>
         </footer>
         <!-- Footer_End -->
     </div>
@@ -558,8 +569,7 @@
                 click: function(ret) {
                     //这里的showMessage是调用的另一个插件  toast
                     //showMessage(JSON.stringify(ret));
-                    let str = '当前查看的版本：';
-                    str = str + JSON.stringify(ret.text).replace("\"", "").replace("\"", "");
+                    let str = JSON.stringify(ret.text).replace("\"", "").replace("\"", "");
                     showMessage(str);
                     document.getElementById("versionButtonID").innerHTML = str;
                 }
