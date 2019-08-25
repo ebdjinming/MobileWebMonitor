@@ -95,15 +95,15 @@
         </header>
         <!-- header_End -->
         <!-- Content_right -->
-        <div class="container_full">
+        <div class="container_full" style="z-index:-1;position: relative;">
 
             <div class="side_bar dark_blue side_bg_img scroll_auto">
                 <ul id="dc_accordion" class="sidebar-menu tree">
                     <li class="menu_title">Menu</li>
                     <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-home"></i> <span>运维监控</span>
+                        <a href="#" class="dcjq-parent active"> <i class="fa fa-home"></i> <span>运维监控</span>
                             <!--<span class="badge badge-info badge-pill float-right">2</span>--></a>
-                        <ul class="down_menu">
+                        <ul class="down_menu" style="display: block;">
                             <li>
                                 <a href="ios-crash-chart.html">Crash 监控 </a>
                             </li>
@@ -1043,6 +1043,26 @@
     </script>
 
     <script src="assets/js/roll.js"></script>
+
+    <script>
+            var div = document.getElementById('deviceCheckbox');
+            div.addEventListener('touchend', test);
+    
+            function test(e) {
+                //切换至android数据页面
+                window.location.href = "index_android.html";
+                console.log("Hi, div clicked!");
+            }
+            console.log("This is the test div page");
+        </script>
+
+    <script>
+        function DeviceChange(){
+            //切换至android数据页面
+            event.stopPropagation();
+            window.location.href = "index_android.html";
+        }
+    </script>
 
 </body>
 
