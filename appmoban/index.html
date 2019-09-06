@@ -35,21 +35,68 @@
 
     <!-- 文字轮播动画css -->
     <link rel="stylesheet" href="assets/css/roll.css">
-    
+
 
 
     <style type="text/css">
-        *{margin: 0;padding: 0;box-sizing: border-box;}
-    
-        .Odometer,.OdometerBg{margin:40px;}
-        .OdometerBg  .number-animate  .number-animate-dom,.OdometerBg  .number-animate  .number-animate-dot{width: 40px;}
-        .OdometerBg  .number-animate  .number-animate-dot span{  background: #222;color: yellow;border-left: 1px solid #fff;}
-        .OdometerBg  .number-animate  .number-animate-dom{ background: #222;color: yellow;border-left: 1px solid #fff;}
-
-        .number-animate{line-height:45px; height: 45px;font-size: 40px;overflow: hidden; display: inline-block; position: relative; }
-        .number-animate .number-animate-dot{ width: 21px; float: left; text-align: center;}
-        .number-animate .number-animate-dom{ width: 27px;  text-align: center; float: left; position: relative; top: 0;}
-        .number-animate .number-animate-dom span,.number-animate .number-animate-dot span{float: left;width: 100%;height: 45px;line-height: 1.1;}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .Odometer,
+        .OdometerBg {
+            margin: 40px;
+        }
+        
+        .OdometerBg .number-animate .number-animate-dom,
+        .OdometerBg .number-animate .number-animate-dot {
+            width: 40px;
+        }
+        
+        .OdometerBg .number-animate .number-animate-dot span {
+            background: #222;
+            color: yellow;
+            border-left: 1px solid #fff;
+        }
+        
+        .OdometerBg .number-animate .number-animate-dom {
+            background: #222;
+            color: yellow;
+            border-left: 1px solid #fff;
+        }
+        
+        .number-animate {
+            line-height: 45px;
+            height: 45px;
+            font-size: 40px;
+            overflow: hidden;
+            display: inline-block;
+            position: relative;
+        }
+        
+        .number-animate .number-animate-dot {
+            width: 21px;
+            float: left;
+            text-align: center;
+        }
+        
+        .number-animate .number-animate-dom {
+            width: 27px;
+            text-align: center;
+            float: left;
+            position: relative;
+            top: 0;
+        }
+        
+        .number-animate .number-animate-dom span,
+        .number-animate .number-animate-dot span {
+            float: left;
+            width: 100%;
+            height: 45px;
+            line-height: 1.1;
+        }
     </style>
 
 </head>
@@ -61,190 +108,19 @@
 
     <div class="wrapper">
         <!-- header -->
-        <header class="main-header">
-            <div class="container_header">
-                <div class="logo d-flex align-items-center">
-                    <a href="#"> <strong class="logo_icon"> <img src="assets/images/small-logo.png" alt=""> </strong> <span class="logo-default">
-							<img src="assets/images/logo2.png" alt="" style="margin-top: 20px;"> </span> </a>
-                    <div class="icon_menu full_menu">
-                        <a href="#!" class="menu-toggler sidebar-toggler"></a>
-                    </div>
-                </div>
-                <div class="right_detail">
-                    <div class="row d-flex align-items-center min-h pos-md-r">
-                        <div class="col-3 search_col ">
-                            <div class="top_function">
-                            </div>
-                        </div>
-                        <div class=" col-9 d-flex justify-content-end">
-                            <div style="position:absolute;right:15px;top:-3px;" class="right_bar_top d-flex align-items-center">
-                                <!-- switch切换开关 -->
-                                <div class="lcs_wrap"><input type="checkbox" name="check-1" value="4" class="lcs_check" autocomplete="off">
-                                    <div class="lcs_switch  lcs_checkbox_switch lcs_on">
-                                        <div class="lcs_cursor"></div>
-                                        <div class="lcs_label lcs_label_on" style="top:4px"><span class="iconfont icon-iphone"></span></div>
-                                        <div class="lcs_label lcs_label_off" style="top:6px"><span class="iconfont icon-android"></span></div>
-                                    </div>
-                                </div>
-                                <!-- Dropdown_User_End -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <header id="Header" class="main-header">
         </header>
         <!-- header_End -->
         <!-- Content_right -->
-        <div class="container_full" style="z-index:-1;position: relative;">
+        <div class="container_full">
 
-            <div class="side_bar dark_blue side_bg_img scroll_auto">
-                <ul id="dc_accordion" class="sidebar-menu tree">
-                    <li class="menu_title">Menu</li>
-                    <li class="menu_sub">
-                        <a href="#" class="dcjq-parent active"> <i class="fa fa-home"></i> <span>运维监控</span>
-                            <!--<span class="badge badge-info badge-pill float-right">2</span>--></a>
-                        <ul class="down_menu" style="display: block;">
-                            <li>
-                                <a href="ios-crash-chart.html">Crash 监控 </a>
-                            </li>
-                            <li>
-                                <a href="startSpeed.html">启动速度监控 </a>
-                            </li>
-                            <li>
-                                <a href="service.html">业务监控 </a>
-                            </li>
-                            <li>
-                                <a href="scan.html">扫一扫监控 </a>
-                            </li>
-                            <li>
-                                <a href="verify.html">人脸核身监控 </a>
-                            </li>
-                            <li>
-                                <a href="faceDetect.html">人脸识别监控(汇总) </a>
-                            </li>
-                            <li>
-                                <a href="devices.html">用户设备统计 </a>
-                            </li>
-                            <li>
-                                <a href="performance.html">App性能监控 </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- <li class="menu_title">Components</li> -->
-                    <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-newspaper-o"></i> <span>安全监控 </span>
-                            <!--<span class="badge badge-pill badge-danger float-right">New</span>--></a>
-                        <ul class="down_menu">
-                            <li>
-                                <a href="security.html">iPhone安全监控</a>
-                            </li>
-                            <li>
-                                <a href="security_android.html">Android安全监控</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-pie-chart"></i> <span>大屏监控</span> <span class="icon-arrow-down styleicon"></span> </a>
-                        <ul class="down_menu">
-                            <li>
-                                <a href="portlet-base.html">大屏监控</a>
-                            </li>
-                            <!-- <li>
-                                <a href="portlet-advanced.html">Portlets Advanced</a>
-                            </li> -->
-                        </ul>
-                    </li>
-
-                    <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-table"></i> <span>网络监控(搭建ing) </span>
-                            <!--<span class="badge badge-pill badge-danger float-right">2</span>--></a>
-                        <ul class="down_menu">
-                            <li>
-                                <a href="widgets-base.html">网络监控</a>
-                            </li>
-                            <!-- <li>
-                                <a href="widgets-chart.html">Widgets Chart</a>
-                            </li> -->
-                        </ul>
-                    </li>
-                    <li class="menu_sub">
-                        <a href="#"> <i class="fa fa-calendar"></i> <span>其他功能 </span> <span class="icon-arrow-down styleicon"></span> </a>
-                        <ul class="down_menu">
-                            <li>
-                                <a href="calendar-basic.html">App日志查询</a>
-                            </li>
-                            <li>
-                                <a href="calendar-external-events.html">权限管理</a>
-                            </li>
-                            <li>
-                                <a href="calendar-list.html">配置管理</a>
-                            </li>
-                            <li>
-                                <a href="calendar-list.html">周报管理</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
+            <div id="Menu" class="side_bar dark_blue side_bg_img scroll_auto">
             </div>
+
             <div class="content_wrapper">
                 <div class="container-fluid">
                     <!-- breadcrumb -->
-                    <div class="page-heading"  style="height: 105px;">
-                        <div class="row d-flex align-items-center" style="position: relative;top: -20px;">
-                            <div style="height: 31px;padding-left: 18px;" class="col-12">
-                                <div class="page-breadcrumb" style="width:100px;float:left;display: inline;">
-                                    <h1>iPhone</h1>
-                                </div>
-                                <div class="copy_right" style="float: right; display: inline;">
-                                        <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" style="padding: 2px;position: relative;top: -2px;" onclick="centermenu7()">7.5.0</button>
-                                </div>
-                                <div style="float: right;display: inline;">
-                                    <h1>切换版本：</h1>
-                                </div>
-                                
-                            </div>
-
-                            <div class="col-12  d-md-flex">
-                                <div class="breadcrumb_nav">
-                                    <ol class="breadcrumb">
-                                        <li>
-                                            <i class="fa fa-home"></i>
-                                            <a class="parent-item" href="index.html">运行监控</a>
-                                            <i class="fa fa-angle-right"></i>
-                                        </li>
-                                        <li class="active">
-                                            Crash监控
-                                        </li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-
-                    <!-- 在此添加切换查看时间的按钮 -->
-                    <div class="row" style="position: relative;top: -20px;">
-                        <div class="col-12 text-center" style="padding: 2px;">
-                            <div class="btn-group" data-toggle="buttons">
-                                <label class="btn btn-outline-secondary active" id="min" onclick='updateData(this)'>
-                                  <input type="radio" name="options" checked="">
-                                  <i class="fa fa-clock-o"></i>
-                                十分钟</label>
-                                <label class="btn btn-outline-secondary" id="mins" onclick='updateData(this)'>
-                                  <input type="radio" name="options" value="1hour" id="option4">
-                                  <i class="fa fa-clock-o"></i>
-                                一小时</label>
-                                <label class="btn btn-outline-secondary" style="width:85px;" id="day" onclick='updateData(this)'>
-                                    <input type="radio" name="options" value="1day" id="option5" checked="">
-                                    <i class="fa fa-clock-o"></i>
-                                一天</label>
-                                <label class="btn btn-outline-secondary" style="width:85px;" id="days" onclick='updateData(this)'>
-                                    <input type="radio" name="options" value="10days" id="option4">
-                                    <i class="fa fa-clock-o"></i>
-                                十天</label>
-                            </div>
-        
-                        </div>
-                    </div>
+                    <div id="Heading" class="page-heading" style="height: 105px;">
                     </div>
                     <!-- breadcrumb_End -->
 
@@ -334,53 +210,53 @@
                             </div>
 
                             <div class="col-12">
-                                    <div class="card card-shadow mb-4">
-                                        <div class="card-header">
-                                            <div class="card-title">
-                                                crash错误日志
-                                            </div>
+                                <div class="card card-shadow mb-4">
+                                    <div class="card-header">
+                                        <div class="card-title">
+                                            crash错误日志
                                         </div>
-                                        <div class="card-body" style="padding: 0px;">
-                                                <div class="news-scroll">
-                                                        <div class="scroll-box">
-                                                            <!--滚动的新闻-->
-                                                            <div class="roll" style="width:100%;">
-                                                                <ul>
-                                                                    <li class="roll_1">
-                                                                        <!-- <a href="#" class="ellipsis">jQuery是一个快速、简洁的JavaScript框架</a> -->
-                                                                        <p>jQuery是一个快速、简洁的JavaScript框架</p>
-                                                                    </li>
-                                                                    <li class="roll_2">
-                                                                        <p>jQuery的核心特性可以总结为</p>
-                                                                        <!-- <a href="#" class="ellipsis">jQuery的核心特性可以总结为</a> -->
-                                                                    </li>
-                                                                    <li class="roll_3">
-                                                                        <p>2005年8月，John Resig</p>
-                                                                        <!-- <a href="#" class="ellipsis">2005年8月，John Resig</a> -->
-                                                                    </li>
-                                                                    <li class="roll_4">
-                                                                        <!-- <a href="#" class="ellipsis">2007年7月，jQuery 1.1.3版发布</a> -->
-                                                                        <p>2007年7月，jQuery 1.1.3版发布</p>
-                                                                    </li>
-                                                                    <li class="roll_5">
-                                                                        <!-- <a href="#" class="ellipsis">2008年5月，jQuery 1.2.6版发布</a> -->
-                                                                        <p>2008年5月，jQuery 1.2.6版发布</p>
-                                                                    </li>
-                                                                    <li class="roll_hide">
-                                                                        <!-- <a href="#" class="ellipsis">2009年1月，jQuery 1.3版发布</a> -->
-                                                                        <p>2009年1月，jQuery 1.3版发布</p>
-                                                                    </li>
-                                                                    <li class="roll_hide">
-                                                                        <!-- <a href="#" class="ellipsis">2010年1月，也是jQuery的四周年生日</a> -->
-                                                                        <p>2010年1月，也是jQuery的四周年生日</p>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                    </div>
+                                    <div class="card-body" style="padding: 0px;">
+                                        <div class="news-scroll">
+                                            <div class="scroll-box">
+                                                <!--滚动的新闻-->
+                                                <div class="roll" style="width:100%;">
+                                                    <ul>
+                                                        <li class="roll_1">
+                                                            <!-- <a href="#" class="ellipsis">jQuery是一个快速、简洁的JavaScript框架</a> -->
+                                                            <p>jQuery是一个快速、简洁的JavaScript框架</p>
+                                                        </li>
+                                                        <li class="roll_2">
+                                                            <p>jQuery的核心特性可以总结为</p>
+                                                            <!-- <a href="#" class="ellipsis">jQuery的核心特性可以总结为</a> -->
+                                                        </li>
+                                                        <li class="roll_3">
+                                                            <p>2005年8月，John Resig</p>
+                                                            <!-- <a href="#" class="ellipsis">2005年8月，John Resig</a> -->
+                                                        </li>
+                                                        <li class="roll_4">
+                                                            <!-- <a href="#" class="ellipsis">2007年7月，jQuery 1.1.3版发布</a> -->
+                                                            <p>2007年7月，jQuery 1.1.3版发布</p>
+                                                        </li>
+                                                        <li class="roll_5">
+                                                            <!-- <a href="#" class="ellipsis">2008年5月，jQuery 1.2.6版发布</a> -->
+                                                            <p>2008年5月，jQuery 1.2.6版发布</p>
+                                                        </li>
+                                                        <li class="roll_hide">
+                                                            <!-- <a href="#" class="ellipsis">2009年1月，jQuery 1.3版发布</a> -->
+                                                            <p>2009年1月，jQuery 1.3版发布</p>
+                                                        </li>
+                                                        <li class="roll_hide">
+                                                            <!-- <a href="#" class="ellipsis">2010年1月，也是jQuery的四周年生日</a> -->
+                                                            <p>2010年1月，也是jQuery的四周年生日</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
                             <div class="col-12">
                                 <div class="card card-shadow mb-4">
@@ -869,18 +745,9 @@
             </div>
         </div>
         <!-- Content_right_End -->
+
         <!-- Footer -->
-        <footer class="footer ptb-20">
-            <div class="row">
-                    <div class="col-12 text-center">
-                        <div class="copy_right">
-                            <p>
-                                Copyright &copy 2019 个人网银基础室
-                            </p>
-                        </div>
-    
-                    </div>
-                </div>
+        <footer id="Footer" class="footer ptb-20">
         </footer>
         <!-- Footer_End -->
     </div>
@@ -1027,40 +894,89 @@
 
     <script src="assets/js/Odometer.js"></script>
     <script>
-        ;(function(){
+        ;
+        (function() {
             var num2 = 231365789;
-            var odo2 = new Odometer('.Odometer2',{
-                num : num2,
-                len : 8
+            var odo2 = new Odometer('.Odometer2', {
+                num: num2,
+                len: 8
             });
 
             //改变数值
-            setInterval(()=>{
-                num2 +=1123132;
+            setInterval(() => {
+                num2 += 1123132;
                 odo2.update(num2);
-            },1300)
+            }, 1300)
         })();
     </script>
 
     <script src="assets/js/roll.js"></script>
 
+    <script type="text/javascript">
+        window.onload = function() {
+            //加载Header
+            $('#Header').load('Header.html', function() {
+                //重新注册菜单按钮的点击事件
+                $(".icon_menu").on('click', function() {
+                    $('body').toggleClass("mobile_nav");
+                });
+            });
+
+            //加载Footer
+            $('#Footer').load('Footer.html');
+
+            //加载Menu
+            $('#Menu').load('Menu.html', function() {
+                addDynamicMenu();
+                //注册菜单中一级菜单的点击事件
+                registerMenuClick();
+            });
+
+            //加载Heading
+            $('#Heading').load('Heading.html', function() {
+                //修改iPhone Android
+                document.getElementById("device").innerHTML = "Android";
+                //修改一级标题
+                document.getElementById("firstMenu").innerHTML = "动态数据";
+                //修改二级标题
+                document.getElementById("secondMenu").innerHTML = "你个铁憨憨";
+                //修改图标
+                document.getElementById("menuIcon").className = "fa fa-line-chart";
+            });
+
+        }
+    </script>
+
+    <script src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
     <script>
-            var div = document.getElementById('deviceCheckbox');
-            div.addEventListener('touchend', test);
-    
-            function test(e) {
-                //切换至android数据页面
-                window.location.href = "index_android.html";
-                console.log("Hi, div clicked!");
+        function addDynamicMenu() {
+            var html =
+                '<li id="addMenu" class="menu_sub dcjq-parent-li">\n' +
+                '    <a href="#" class="dcjq-parent active">\n' +
+                '        <i class="fa fa-line-chart"></i>\n' +
+                '        <span>动态数据 </span>\n' +
+                '        <span class="dcjq-icon"></span>\n' +
+                '    </a>\n' +
+                '    <ul class="down_menu" style="display: block;">\n';
+            var titleArray = ["crash监控数据", "用户设备统计", "扫一扫监控数据", "你"];
+            for (let i = 0; i < titleArray.length; i++) {
+                var str =
+                    '        <li>\n' +
+                    '            <a href="ios-crash-chart.html">' + titleArray[i] + '</a>\n' +
+                    '        </li>\n';
+                html = html + str;
             }
-            console.log("This is the test div page");
-        </script>
+            html = html +
+                '    </ul>\n' +
+                '</li>\n';
+
+            $("#dc_accordion").append(html);
+        }
+    </script>
 
     <script>
-        function DeviceChange(){
-            //切换至android数据页面
-            event.stopPropagation();
-            window.location.href = "index_android.html";
+        function registerMenuClick() {
+            $('#dc_accordion').dcAccordion();
         }
     </script>
 

@@ -79,7 +79,7 @@
 			c.remove();
 		});
 	});
-	$('#dc_accordion').dcAccordion();
+	//$('#dc_accordion').dcAccordion();
 	// End
 $(window).on('load',function(){
 	$('#loader_wrpper').delay(500).fadeOut();

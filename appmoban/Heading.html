@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intellir - Bootstrap 4x Mobile HTML5 Template</title>
+
+    <!-- google font -->
+    <link rel="stylesheet" href="assets/css/google_font/fontsGoogleapis.css">
+    <link rel="stylesheet" href="assets/css/google_font/bootstrap-4.2.1.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+
+    <link href="assets/css/ionicons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/jquery.mCustomScrollbar.css" rel="stylesheet">
+    <link href="assets/css/weather-icons.min.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- version button css -->
+    <link rel="stylesheet" href="assets/css/versionButton/global.css">
+    <link rel="stylesheet" href="assets/css/versionButton/animate.css">
+    <link rel="stylesheet" href="assets/css/versionButton/toast.css">
+    <link rel="stylesheet" href="assets/css/versionButton/centermenu.css">
+
+</head>
+
+<body>
+    <div class="row d-flex align-items-center" style="position: relative;top: -20px;">
+        <div style="height: 31px;padding-left: 18px;" class="col-12">
+            <div class="page-breadcrumb" style="width:100px;float:left;display: inline;">
+                <h1 id="device">iPhone</h1>
+            </div>
+            <div class="copy_right" style="float: right; display: inline;">
+                <button id="versionButtonID" class="dw-btn btn-success has-hover centermenu" style="padding: 2px;position: relative;top: -2px;" onclick="centermenu7()">7.5.0</button>
+            </div>
+            <div style="float: right;display: inline;">
+                <h1>切换版本：</h1>
+            </div>
+
+        </div>
+
+        <div class="col-12  d-md-flex">
+            <div class="breadcrumb_nav">
+                <ol class="breadcrumb">
+                    <li>
+                        <i id="menuIcon" class="fa fa-home"></i>
+                        <a id="firstMenu" class="parent-item" href="index.html">运行监控</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li id="secondMenu" class="active">
+                        Crash监控
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- 在此添加切换查看时间的按钮 -->
+    <div class="row" style="position: relative;top: -20px;">
+        <div class="col-12 text-center" style="padding: 2px;">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-outline-secondary active" id="min" onclick='updateData(this)'>
+              <input type="radio" name="options" checked="">
+              <i class="fa fa-clock-o"></i>
+            十分钟</label>
+                <label class="btn btn-outline-secondary" id="mins" onclick='updateData(this)'>
+              <input type="radio" name="options" value="1hour" id="option4">
+              <i class="fa fa-clock-o"></i>
+            一小时</label>
+                <label class="btn btn-outline-secondary" style="width:85px;" id="day" onclick='updateData(this)'>
+                <input type="radio" name="options" value="1day" id="option5" checked="">
+                <i class="fa fa-clock-o"></i>
+            一天</label>
+                <label class="btn btn-outline-secondary" style="width:85px;" id="days" onclick='updateData(this)'>
+                <input type="radio" name="options" value="10days" id="option4">
+                <i class="fa fa-clock-o"></i>
+            十天</label>
+            </div>
+
+        </div>
+    </div>
+</body>
